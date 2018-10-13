@@ -1,28 +1,26 @@
-# Tech Karo - Final Test
-### The Lotus Translations App
+# Tech Karo - Test#2
+### The Message Send App
 
 | **Powered By** Tech Karo  |
 
 **Oct 4th, 2018**
 
-Your task is to create **The Lotus Translations App** as explained below:
+Your task is to create **The Message Send App** as explained below:
 
 ### What does it look like?
 
-
+![mockup-desktop](https://user-images.githubusercontent.com/10798986/46590561-aaf3a200-cacd-11e8-99aa-3fd0e4341506.png)
 ----
 
 ## App Features
-1. The app fetches data from the API https://techkaro-test.herokuapp.com/api/v1/getdata and displays the data on the html page.
-2. The app should be able to fetch data in English, Chinese and Urdu
-3. The app should be responsive across various screen sizes ( > 370px ).
+1. The app is a soft keyboard. Clicking the keys types the message. Clicking the message shows a "message sent!" alert
 ---
 
 ## Ingredients
-The app should use:
+The app MUST use:
 1. Bootstrap
 2. Font Awesome for icons
-3. Google Fonts for fonts (font-family: 'Montserrat')
+3. Google Fonts for fonts
 4. JQuery for Ajax
 
 The CDNs of all ingredients, along with `script.js` and `style.css` files, have already been linked in the `<head>`.
@@ -32,33 +30,23 @@ The CDNs of all ingredients, along with `script.js` and `style.css` files, have 
 ## Rules
 1. Your app should look like the mockups attached in the `screenshots` folder. Try to achieve pixel perfection.
 2. Your app should be responsive
-3. Any data that can be fetched from the API should not be hard-coded in HTML
-4. You must upload the task to your Github Account and host it on Github Pages before 6 PM. 
+3. The code should be refactored
+4. You must upload the task to your Github Account and host it on Github Pages at 6 PM. 
 5. You must not push any commits to your repo after 6 PM
 
 ----
 
 ## Screenshots
 
-#### English
 *Desktop Screen Size*
+
+![mockup-desktop](https://user-images.githubusercontent.com/10798986/46590561-aaf3a200-cacd-11e8-99aa-3fd0e4341506.png)
 
 *Mobile Screen Size*
 
--------
-When the flags on the top are clicked, the language should change - For example, clicking the Chinese flag should display text in Chinese. The translations can be fetched from the API using query string:
+![mockup-mobile](https://user-images.githubusercontent.com/10798986/46590562-ab8c3880-cacd-11e8-9d28-e1ecb8c58e87.png)
 
-**API URL:** https://techkaro-test.herokuapp.com/api/v1/getdata
-**Query Parameter:** lang
-**lang values**: `en` for English, `zh` for Chinese, and `ur` for Urdu
+*GIF*
 
-**Example:** To get data in Chinese, use https://techkaro-test.herokuapp.com/api/v1/getdata?lang=zh
-
--------------------
-
-## Chinese
-
-------
-## Urdu
-
+![mockup-anim](https://user-images.githubusercontent.com/10798986/46590560-aaf3a200-cacd-11e8-999d-87918a50ea0d.gif)
 ------

@@ -1,60 +1,83 @@
-body, body * {
-    font-family: 'Montserrat', sans-serif;
-    /* color: #494949; */
+.key {
+    font-family: 'Arvo', serif;
+}
+
+h1 {
+    font-family: 'Permanent Marker', cursive;
+    padding: 16px;
+
+}
+body{
+    background: #a9d0da;
+}
+.input-group{
+max-width: 600px;
+height: 100px;
+}
+.btn-img{
+height: 60px;
+width: 60px;
+}
+ .button{
+    background-image: url("images/keyboard-key.png");
+    background-size: cover;
+    background-position: center;
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    font-size: 20px;
+    line-height: 40px;
  
 }
-
-body {
-    background-color: #40a63d1a;
-    margin: 0px;
-}
-.nav-item{
-    color: #c0bfbf !important;
-}
-.logo{
-    height: 60px;
-}
-#nav1  a{
-    color: red !important;
-   font-size: 25px;
-}
-
-.card-1{
-
-    width: 630px;
-}
-.main-card{
-    display: flex;
-    padding: 20px;
-}
-.card-2{
-   width: 300px;
-   margin-left: 16px;
-}
-.card-title{
-    font-weight: bold;
+.card{
+    width: 500px;
     
-}
-button{
-    background: green;
-    color: white;
-    border: 1px solid green;
-    padding: 5px;
+ 
 }
 .container{
-    height: 100vh;
-    margin: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
-.card-img-top{
-    height: 310px;
-    min-width: 300px;;   
+.card-body{
+  height: 200px;
+  width: 500px;
+  display: flex;
+    justify-content: center; 
+   /* align-items: center;   */
+  flex-wrap: wrap;
+  margin-bottom: 10px;
+ 
+ 
 }
-.card-1 i,a{
-    color: green !important;
+.space-button{
+    background-image: url("images/space-bar-key.png");
+    background-size: cover;
+    background-position: center;
+   height: 40px;
+   width: 90px;
+    text-align: center;
+    line-height: 30px;
+    font-weight: bold;
+   
 }
-i{
-    font-size: 25px;
+
+button:hover{
+    cursor:pointer;
 }
-h1{
-    margin: 10px;
+.enter-button{
+    background-image: url("images/keyboard-key.png");
+    background-size: cover;
+    background-position: center;
+    height: 50px;
+    width: 50px;
+    line-height: 40px;
+    text-align: center;
+}
+.main-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
 }
